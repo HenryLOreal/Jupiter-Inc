@@ -321,7 +321,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: .6rem;
+        font-size: .4rem;
     }
     
     .enlace:hover, .botonSeccionUno:hover{
@@ -395,7 +395,7 @@
         justify-content: center;
         flex-direction: column;
         color: white;
-        font-size: 1rem;
+        font-size: .6rem;
         text-align: justify;
         /* border: solid 3px red; */
     }
@@ -407,7 +407,7 @@
         justify-content: center;
         flex-direction: column;
         color: white;
-        font-size: .4rem;
+        font-size: .2rem;
         text-align: justify;
         /* border: solid 3px blue; */
     }
@@ -419,7 +419,7 @@
         flex-direction: column;
         color: white;
         font-weight: 700;
-        font-size: .4rem;
+        font-size: .2rem;
         text-align: justify;
         list-style-type: square;
         list-style-position: inside;
@@ -475,7 +475,7 @@
         justify-content: center;
         flex-direction: column;
         color: white;
-        font-size: 1rem;
+        font-size: .6rem;
         text-align: center;
         /* border: solid 3px cyan; */
     }
