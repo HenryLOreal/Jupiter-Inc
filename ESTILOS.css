@@ -321,7 +321,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: .4rem;
+        font-size: .2rem;
     }
     
     .enlace:hover, .botonSeccionUno:hover{
@@ -395,21 +395,9 @@
         justify-content: center;
         flex-direction: column;
         color: white;
-        font-size: .6rem;
+        font-size: .4rem;
         text-align: justify;
         /* border: solid 3px red; */
-    }
-    
-    .descripcion{
-        width: 100%;
-        height: 10%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        color: white;
-        font-size: .2rem;
-        text-align: justify;
-        /* border: solid 3px blue; */
     }
     
     .trabajadores{
@@ -424,6 +412,18 @@
         list-style-type: square;
         list-style-position: inside;
         /* border: solid 3px green; */
+    }
+
+    .descripcion{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        font-size: .2rem;
+        text-align: justify;
+        /* border: solid 3px blue; */
     }
     
     .nombre{
@@ -475,7 +475,7 @@
         justify-content: center;
         flex-direction: column;
         color: white;
-        font-size: .6rem;
+        font-size: .4rem;
         text-align: center;
         /* border: solid 3px cyan; */
     }
@@ -488,6 +488,7 @@
         justify-content: center;
         text-align: center;
         color: white;
+        font-size: .4rem;
         /* border: solid 3px green; */
     }
     
