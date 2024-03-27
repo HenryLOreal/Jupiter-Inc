@@ -188,7 +188,7 @@
 }
 
 .seccion2{
-    width: 97.6;
+    width: 98.8vw;
     height: 100vh;
 
 }
@@ -264,10 +264,7 @@
 .formulario{
     width: 80%;
     height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    display: block;
     color: black;
     /* padding: 20%; */
     /* border: solid 3px blue; */
