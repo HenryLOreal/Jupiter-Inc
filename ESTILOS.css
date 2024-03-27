@@ -258,7 +258,7 @@
     color: black;
     padding-left: 10%;
     padding-top: 0%;
-    border: solid 3px red;
+    /* border: solid 3px red; */
 }
 
 .formulario{
@@ -270,7 +270,7 @@
     text-align: center;
     color: black;
     /* padding: 20%; */
-    border: solid 3px blue;
+    /* border: solid 3px blue; */
 }
 
 @media screen and (max-widht: 500px) {
@@ -282,7 +282,7 @@
     
     .espaciohead{
         height: 10%;
-        /* border: solid 3px red; */
+        /* border: solid 3px blue; */
     
     }
     
@@ -295,7 +295,7 @@
         border-bottom: solid 5% #ffffff;
         opacity: .95;
         paint-order: initial;
-        /* border: solid 3px red; */
+        /* border: solid 3px green; */
     }
     
     .logo{
@@ -306,14 +306,14 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        /* border: solid 3px red; */
+        /* border: solid 3px greenyellow; */
     }
     
     .opciones{
         width: 90%;
         height: 100%;
         background-color: black;
-        /* border: solid 3px red; */
+        /* border: solid 3px tomato; */
     }
     
     .LogoJupiterInc{
@@ -338,10 +338,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        /* border: solid 3px palegreen; */
     }
     
     .enlace:hover, .botonSeccionUno:hover{
         font-weight: bold;
+        font-size: .4rem;
     }
     
     .item a{
@@ -411,7 +413,7 @@
         justify-content: center;
         flex-direction: column;
         color: white;
-        font-size: 2rem;
+        font-size: 1rem;
         text-align: justify;
         /* border: solid 3px red; */
     }
@@ -423,7 +425,7 @@
         justify-content: center;
         flex-direction: column;
         color: white;
-        font-size: 1.2rem;
+        font-size: .6rem;
         text-align: justify;
         /* border: solid 3px blue; */
     }
@@ -435,7 +437,7 @@
         flex-direction: column;
         color: white;
         font-weight: 700;
-        font-size: 1.4rem;
+        font-size: .6rem;
         text-align: justify;
         list-style-type: square;
         list-style-position: inside;
@@ -491,7 +493,7 @@
         justify-content: center;
         flex-direction: column;
         color: white;
-        font-size: 2rem;
+        font-size: 1rem;
         text-align: center;
         /* border: solid 3px cyan; */
     }
@@ -504,12 +506,13 @@
         justify-content: center;
         text-align: center;
         color: white;
+        font-size: .4rem;
         /* border: solid 3px green; */
     }
     
     .datosli{
         color: white;
-        font-size: 1.2rem;
+        font-size: .4rem;
         /* border: solid 3px green; */
     }
     
@@ -527,10 +530,7 @@
     .formulario{
         width: 80%;
         height: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
+        display: block;
         color: black;
         /* border: solid 3px blue; */
     }
