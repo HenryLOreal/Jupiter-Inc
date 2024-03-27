@@ -256,7 +256,9 @@
     justify-content: center;
     text-align: center;
     color: black;
-    /* border: solid 3px red; */
+    padding-left: 10%;
+    padding-top: 0%;
+    border: solid 3px red;
 }
 
 .formulario{
@@ -267,12 +269,13 @@
     justify-content: center;
     text-align: center;
     color: black;
-    /* border: solid 3px blue; */
+    /* padding: 20%; */
+    border: solid 3px blue;
 }
 
 @media screen and (max-widht: 500px) {
     .seccion1{
-        width: 49%%;
+        width: 49%;
         height: 60%;
         /* border: solid 3px red; */
     }
