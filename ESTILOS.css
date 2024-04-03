@@ -369,16 +369,16 @@
     /* border: solid 3px green; */
 }
 
-@media screen and (max-widht: 500px) {
+@media screen and (max-widht: 501px) {
     .seccion1{
-        width: 49%;
-        height: 60%;
+        width: 100vw;
+        height: 100vh;
         /* border: solid 3px red; */
     }
     
     .espaciohead{
         height: 10%;
-        /* border: solid 3px blue; */
+        /* border: solid 3px red; */
     
     }
     
@@ -388,10 +388,10 @@
         display: flex;
         flex-direction: row;
         position: fixed;
-        border-bottom: solid 5% #ffffff;
+        border-bottom: solid 5px #ffffff;
         opacity: .95;
         paint-order: initial;
-        /* border: solid 3px green; */
+        /* border: solid 3px red; */
     }
     
     .logo{
@@ -402,14 +402,14 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        /* border: solid 3px greenyellow; */
+        /* border: solid 3px red; */
     }
     
     .opciones{
         width: 90%;
         height: 100%;
         background-color: black;
-        /* border: solid 3px tomato; */
+        /* border: solid 3px red; */
     }
     
     .LogoJupiterInc{
@@ -434,12 +434,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        /* border: solid 3px palegreen; */
     }
     
     .enlace:hover, .botonSeccionUno:hover{
         font-weight: bold;
-        font-size: .4rem;
     }
     
     .item a{
@@ -509,7 +507,7 @@
         justify-content: center;
         flex-direction: column;
         color: white;
-        font-size: 1rem;
+        font-size: 10px;
         text-align: justify;
         /* border: solid 3px red; */
     }
@@ -521,7 +519,7 @@
         justify-content: center;
         flex-direction: column;
         color: white;
-        font-size: .6rem;
+        font-size: 10px;
         text-align: justify;
         /* border: solid 3px blue; */
     }
@@ -533,7 +531,7 @@
         flex-direction: column;
         color: white;
         font-weight: 700;
-        font-size: .6rem;
+        font-size: 10px;
         text-align: justify;
         list-style-type: square;
         list-style-position: inside;
@@ -551,7 +549,7 @@
     }
     
     .seccion2{
-        width: 97.6;
+        width: 100vw;
         height: 100vh;
     
     }
@@ -589,7 +587,7 @@
         justify-content: center;
         flex-direction: column;
         color: white;
-        font-size: 1rem;
+        font-size: 10px;
         text-align: center;
         /* border: solid 3px cyan; */
     }
@@ -602,13 +600,12 @@
         justify-content: center;
         text-align: center;
         color: white;
-        font-size: .4rem;
         /* border: solid 3px green; */
     }
     
     .datosli{
         color: white;
-        font-size: .4rem;
+        font-size: 10px;
         /* border: solid 3px green; */
     }
     
@@ -620,6 +617,8 @@
         justify-content: center;
         text-align: center;
         color: black;
+        padding-left: 10%;
+        padding-top: 0%;
         /* border: solid 3px red; */
     }
     
@@ -628,23 +627,106 @@
         height: 80%;
         display: block;
         color: black;
+        /* padding: 20%; */
         /* border: solid 3px blue; */
     }
-
+    
     .seccion3{
-        width: 98.8vw;
+        width: 100vw;
         height: 100vh;
         /* border: solid 3px red; */
     }
-
+    
     .informacion{
-        width: 50%;
-        height: 100%;
+        width: 100%;
+        height: 90vh;
+        background-image: url("https://c0.wallpaperflare.com/preview/775/406/527/black-astronomy-galaxy-nebula.jpg");
+        background-repeat: no-repeat;
+        background-color: #000000;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
         display: flex;
         flex-direction: column;
+        /* border: solid 3px red; */    
+    }
+    
+    .titulo3{
+        width: 100%;
+        height: 10%;
+        display: flex;
         justify-content: center;
-        text-align: center;
+        flex-direction: column;
         color: white;
+        font-size: 10px;
+        text-align: center;
+        /* border: solid 3px green; */
+    }
+    
+    .texto1{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        font-size: 10px;
+        text-align: center;
+        /* border: solid 3px cyan; */
+    }
+    
+    .columnas3{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
         /* border: solid 3px yellow; */
+    }
+    
+    .columnas31{
+        width: 28%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* border: solid 3px orange; */
+    }
+    
+    .espaciocolumnas{
+        width: 4%;
+        /* border: solid 3px green; */
+    }
+    
+    .subtitulo1{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        font-size: 10px;
+        font-weight: lighter;
+        text-align: center;
+        /* border: solid 3px red; */
+    }
+    
+    .texto2{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        font-size: 1rem;
+        text-align: justify;
+        padding-left: 1%;
+        padding-right: 1%;
+        /* border: solid 3px blue; */
+    }
+    
+    .espacios2{
+        width: 30%;
+        /* border: solid 3px green; */
     }
 }
