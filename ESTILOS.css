@@ -369,7 +369,7 @@
     /* border: solid 3px green; */
 }
 
-@media screen and (max-widht: 501px) {
+@media screen and (max-widht: 300px) {
     .seccion1{
         width: 100vw;
         height: 100vh;
@@ -507,7 +507,7 @@
         justify-content: center;
         flex-direction: column;
         color: white;
-        font-size: 10px;
+        font-size: 2px;
         text-align: justify;
         /* border: solid 3px red; */
     }
@@ -519,7 +519,7 @@
         justify-content: center;
         flex-direction: column;
         color: white;
-        font-size: 10px;
+        font-size: 2px;
         text-align: justify;
         /* border: solid 3px blue; */
     }
@@ -531,7 +531,7 @@
         flex-direction: column;
         color: white;
         font-weight: 700;
-        font-size: 10px;
+        font-size: 2px;
         text-align: justify;
         list-style-type: square;
         list-style-position: inside;
@@ -587,7 +587,7 @@
         justify-content: center;
         flex-direction: column;
         color: white;
-        font-size: 10px;
+        font-size: 2px;
         text-align: center;
         /* border: solid 3px cyan; */
     }
@@ -605,7 +605,7 @@
     
     .datosli{
         color: white;
-        font-size: 10px;
+        font-size: 2px;
         /* border: solid 3px green; */
     }
     
@@ -658,7 +658,7 @@
         justify-content: center;
         flex-direction: column;
         color: white;
-        font-size: 10px;
+        font-size: 2px;
         text-align: center;
         /* border: solid 3px green; */
     }
@@ -670,7 +670,7 @@
         justify-content: center;
         flex-direction: column;
         color: white;
-        font-size: 10px;
+        font-size: 2px;
         text-align: center;
         /* border: solid 3px cyan; */
     }
@@ -705,7 +705,7 @@
         justify-content: center;
         flex-direction: column;
         color: white;
-        font-size: 10px;
+        font-size: 2px;
         font-weight: lighter;
         text-align: center;
         /* border: solid 3px red; */
