@@ -270,6 +270,105 @@
     /* border: solid 3px blue; */
 }
 
+.seccion3{
+    width: 98.8vw;
+    height: 100vh;
+    /* border: solid 3px red; */
+}
+
+.informacion{
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://c0.wallpaperflare.com/preview/775/406/527/black-astronomy-galaxy-nebula.jpg");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* border: solid 3px red; */    
+}
+
+.titulo3{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    /* border: solid 3px green; */
+}
+
+.texto1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 1.6rem;
+    text-align: center;
+    /* border: solid 3px cyan; */
+}
+
+.columnas3{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /* border: solid 3px yellow; */
+}
+
+.columnas31{
+    width: 28%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* border: solid 3px orange; */
+}
+
+.espaciocolumnas{
+    width: 4%;
+    /* border: solid 3px green; */
+}
+
+.subtitulo1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    text-align: center;
+    /* border: solid 3px red; */
+}
+
+.texto2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border: solid 3px blue; */
+}
+
+.espacios2{
+    width: 30%;
+    /* border: solid 3px green; */
+}
+
 @media screen and (max-widht: 500px) {
     .seccion1{
         width: 49%;
@@ -530,5 +629,22 @@
         display: block;
         color: black;
         /* border: solid 3px blue; */
+    }
+
+    .seccion3{
+        width: 98.8vw;
+        height: 100vh;
+        /* border: solid 3px red; */
+    }
+
+    .informacion{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        /* border: solid 3px yellow; */
     }
 }
